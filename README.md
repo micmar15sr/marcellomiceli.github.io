@@ -1,1 +1,3 @@
-# marcellomiceli.github.io
+# Marcello Miceli, PhD
+University of Modena and Reggio Emilia
+
