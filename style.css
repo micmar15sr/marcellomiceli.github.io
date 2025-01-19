@@ -231,22 +231,22 @@ section.projects div.cards{
 }
 section.projects div.card{
     width: 350px;
-    height: 240px;
+    height: 350px; /* 240px before */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(var(--gray-400-rgb), var(--alpha));
-    border: 1px solid var(--gray-200);
+    background-color: var(--gray-200);
+    /*border: 1px solid var(--gray-200);*/
     padding: 20px, 25px;
 }
 
 section.projects div.cards div.card div.img-project {
     margin-top: 20px;
     width: 300px;
-    height: 130px;
+    height: 200px; /* 130px before */
     background-color: var(--white);
     margin-bottom: 23px;
-    border: 1px solid var(--gray-200);
+    border: 1px solid var(--gray-400);
     display: flex;
     justify-content: center;
     align-items: center;
