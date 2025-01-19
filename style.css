@@ -193,7 +193,14 @@ section.contacts div.contact div.icon i{
 section.contacts span.title{
     font-size: 18px;
     font-weight: 700;
-    color: var(--white);
+    color: var(--black);
+    margin-bottom: 5px;
+}
+
+section.contacts span.title a{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
     margin-bottom: 5px;
 }
 
@@ -303,11 +310,11 @@ section.skills div.cards-skills div.card-skill {
 
 section.skills div.cards-skills div.card-skill i {
     font-size: 5rem;
-    color: var(--yellow);
+    color: var(--white);
 }
 
 section.skills div.cards-skills div.card-skill img {
-    width: 100%;
+    width: 70%;
     height: auto;
     object-fit: cover;
 }
