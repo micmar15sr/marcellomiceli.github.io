@@ -10,7 +10,7 @@
     --gray-400: #212121;
     --gray-400-rgb: 33, 33, 33;
     --alpha: 0.8;
-    --blue: #002FA7;
+    --blue: #02216e;
   }
 *{
     padding: 0;
@@ -28,8 +28,8 @@ a{
 }
 
 body{
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
     display: flex;
@@ -143,7 +143,7 @@ section.about-me{
 section.about-me h2{
     font-size: 2rem;
     font-weight: 700;
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 30px;
 }
 
@@ -187,7 +187,7 @@ section.contacts div.contact div.icon{
 
 section.contacts div.contact div.icon i{
     font-size: 32px;
-    color: var(--yellow);
+    color: var(--white);
 }
 
 section.contacts span.title{
@@ -208,11 +208,12 @@ section.projects{
     flex-direction: column;
     align-items: center;
     margin-bottom: 67px;
+
 }
 section.projects h2{
     font-size: 24px;
     font-weight: 700;
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 30px;
 }
 section.projects div.cards{
@@ -232,13 +233,22 @@ section.projects div.card{
     padding: 20px, 25px;
 }
 
-section.projects div.cards div.card div.img-project{
+section.projects div.cards div.card div.img-project {
     margin-top: 20px;
     width: 300px;
     height: 130px;
-    background-color: var(--dark);
+    background-color: var(--white);
     margin-bottom: 23px;
     border: 1px solid var(--gray-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.projects div.cards div.card div.img-project img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 section.projects div.cards div.card div.description-project{
@@ -252,6 +262,7 @@ section.projects div.cards div.card div.description-project span.title-project{
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 6px;
+    color: var(--white);
 }
 
 section.projects div.cards div.card span.tag-project {
@@ -269,7 +280,7 @@ section.skills{
 section.skills h2{
     font-size: 24px;
     font-weight: 700;
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 35px;
 
 }
@@ -293,7 +304,13 @@ section.skills div.cards-skills div.card-skill {
 section.skills div.cards-skills div.card-skill i {
     font-size: 5rem;
     color: var(--yellow);
-  }
+}
+
+section.skills div.cards-skills div.card-skill img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 footer{
     width: 100%;
     height: 60px;
